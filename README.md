@@ -9,7 +9,7 @@ Feel free to copy anything you find here, just like I have copied from others. I
 - Status Bar: [Waybar](https://github.com/Alexays/Waybar)
 - Terminal: [kitty](https://github.com/kovidgoyal/kitty)
 - Launcher: [wofi](https://github.com/SimplyCEO/wofi)
-- Browser: [Zen](https://github.com/yokoffing/BetterFox)
+- Browser: [Zen](https://github.com/zen-browser/desktop)
 - File Manager: [yazi](https://github.com/sxyazi/yazi)
 - Notifications: [Hyprpanel's Notification](https://github.com/Jas-SinghFSU/HyprPanel)
 - Image Viewer: [Feh](https://github.com/derf/feh)
