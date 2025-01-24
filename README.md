@@ -11,7 +11,7 @@ Feel free to copy anything you find here, just like I have copied from others. I
 - Launcher: [wofi](https://github.com/SimplyCEO/wofi)
 - Browser: [Zen](https://github.com/zen-browser/desktop)
 - File Manager: [yazi](https://github.com/sxyazi/yazi)
-- Notifications: [Hyprpanel's Notification](https://github.com/Jas-SinghFSU/HyprPanel)
+- Notifications: [swaync](https://github.com/ErikReider/SwayNotificationCenter)
 - Image Viewer: [Feh](https://github.com/derf/feh)
 - Video Player: [vlc](https://github.com/videolan/vlc)
 - PDF/EPUB Viewer: [MuPDF](https://mupdf.com/)
