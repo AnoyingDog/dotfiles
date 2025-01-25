@@ -10,7 +10,11 @@ window {
 }
 
 button {
-  margin-right: 7px;
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+
 	border-radius: 15;
 	border-color: #cba6f7;
 	text-decoration-color: #cdd6f4;
