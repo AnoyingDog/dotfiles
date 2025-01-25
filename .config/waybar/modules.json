@@ -4,9 +4,14 @@
     "on-scroll-down": "hyprctl dispatch workspace r+1",
     "on-click": "activate"
   },
+  "hyprland/window": {
+    "rewrite": {
+    },
+    "separate-outputs": true
+  },
   "wlr/taskbar": {
     "format": "{icon}",
-    "icon-size": 30,
+    "icon-size": 22,
     "tooltip-format": "{title}",
     "on-click": "activate",
     "on-click-middle": "close",
@@ -19,8 +24,8 @@
     }
   },
   "tray": {
-    "icon-size": 30,
-    "spacing": 10
+    "icon-size": 22,
+    "spacing": 5
   },
   "clock": {
     "format": "<span foreground='#f5c2e7'>   </span>{:%a %d %H:%M}",
