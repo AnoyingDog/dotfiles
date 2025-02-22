@@ -35,6 +35,7 @@ zstyle :compinstall filename '/home/leon/.zshrc'
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 alias vim='nvim'
+alias tmux="tmux -f ~/.config/tmux/tmux.conf"
 
 eval "$(starship init zsh)"
 
@@ -44,6 +45,3 @@ source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 autoload -Uz compinit
 compinit
-# End of lines added by compinstall
-#
-#
