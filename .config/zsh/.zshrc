@@ -37,6 +37,7 @@ alias grep='grep --color=auto'
 alias vim='nvim'
 alias tmux="tmux -f ~/.config/tmux/tmux.conf"
 
+
 eval "$(starship init zsh)"
 
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
