@@ -15,4 +15,4 @@ Feel free to copy anything you find here, just like I have copied from others. I
 - Image Viewer: [Feh](https://github.com/derf/feh)
 - Video Player: [vlc](https://github.com/videolan/vlc)
 - PDF/EPUB Viewer: [MuPDF](https://mupdf.com/)
-- Nerdfonts: [Caskaydia Cove Nerd Font](https://github.com/eliheuer/caskaydia-cove)
+- Nerdfonts: [Cascadia Code](https://github.com/microsoft/cascadia-code)
