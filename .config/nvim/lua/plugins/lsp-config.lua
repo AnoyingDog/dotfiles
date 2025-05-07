@@ -17,7 +17,6 @@ return {
   },
   {
     "neovim/nvim-lspconfig",
-    lazy = false,
     config = function()
       local lspconfig = require("lspconfig")
       lspconfig.lua_ls.setup({})
@@ -29,4 +28,7 @@ return {
       vim.keymap.set({ "n" }, "<leader>ca", vim.lsp.buf.code_action, {})
     end,
   },
+  vim.diagnostic.config({
+    virtual_text = true,
+  })
 }

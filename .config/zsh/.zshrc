@@ -3,7 +3,7 @@ HISTFILE=~/.cache/zsh/history
 HISTSIZE=1000
 SAVEHIST=1000
 #Autocomplete
-autoload -U compinit
+autoload -U compinit; compinit
 zstyle ':completion:*' menu select
 zmodload zsh/complist
   #Vim keys
@@ -14,6 +14,8 @@ zmodload zsh/complist
 #Vi mode
 bindkey -v
 export KEYTIMEOUT=1
+  #Fix backspace issue
+  bindkey -v '^?' backward-delete-char
 #Yazi shortcut ctrl+o
 function customyazi() {
 	local tmp="$(mktemp -t "yazi-cwd.XXXXXX")" cwd
@@ -45,4 +47,6 @@ source ~/.config/zsh/catppuccin_mocha-zsh-syntax-highlighting.zsh
 source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 autoload -Uz compinit
-compinit
+
+#cat ~/tmp.md
+#neofetch
