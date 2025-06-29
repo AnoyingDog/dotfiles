@@ -36,31 +36,31 @@ button:hover {
 }
 
 #workspaces button {
-    padding: 0px 3px;
-    margin: 3px 2px;
-    border-radius: 3px 3px 3px 3px;
-    color: @text;
-    background-color: @crust;
-    transition: all 0.1s linear;
-    opacity: 0.4;
+  padding: 0px 3px;
+  margin: 3px 2px;
+  border-radius: 3px 3px 3px 3px;
+  color: @text;
+  background-color: @crust;
+  transition: all 0.1s linear;
+  opacity: 0.4;
 }
 
 #workspaces button.active {
-    padding: 0px 6px;
-    color: @text;
-    background: @mauve;
-    border-radius: 3px 3px 3px 3px;
-    min-width: 15px;
-    transition: all 0.2s linear;
-    opacity:1.0;
+  padding: 0px 6px;
+  color: @text;
+  background: @mauve;
+  border-radius: 3px 3px 3px 3px;
+  min-width: 15px;
+  transition: all 0.2s linear;
+  opacity:1.0;
 }
 
 #workspaces button:hover {
-    padding: 0px 6px;
-    color: @text;
-    background: @crust;
-    border-radius: 6px 6px 6px 6px;
-    opacity:0.7;
+  padding: 0px 6px;
+  color: @text;
+  background: @crust;
+  border-radius: 6px 6px 6px 6px;
+  opacity:0.7;
 }
 
 #workspaces button.urgent {

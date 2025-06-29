@@ -6,7 +6,7 @@
 }
 
 window {
-	background-color: rgba(30, 30, 46, 0.75);
+	background-color: rgba(10, 10, 26, 0.75);
 }
 
 button {
@@ -35,7 +35,7 @@ button:focus{
 	outline-style: none;
 }
 button:hover {
-	background-color: rgba(17, 17, 27, 0.75);
+	background-color: rgba(17, 17, 27, 0.8);
 	outline-style: none;
 }
 
