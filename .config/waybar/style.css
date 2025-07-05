@@ -1,0 +1,166 @@
+@import "mocha.css"; 
+
+* {
+  font-family: "MesloLGS Nerd Font Mono Bold";
+  border: none;
+  border-radius: 0px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+window#waybar {
+  background-color: rgba(17, 17, 27, 0.5);
+}
+
+#window {
+  border:2px solid @lavender;
+  color: @lavender;
+  background-color: @crust;
+  border-radius: 9px 9px 9px 9px;
+  padding: 0px 14px 0px 9px;
+  margin: 2px 5px 2px 10px;
+  transition: all 0.2s linear;
+  opacity:0.8;
+}
+
+
+button {
+  box-shadow: inset 0 -3px transparent;
+  border: none;
+  border-radius: 0;
+}
+
+button:hover {
+  background: inherit;
+  color: @mauve;
+}
+
+#workspaces button {
+  padding: 0px 3px;
+  margin: 3px 2px;
+  border-radius: 3px 3px 3px 3px;
+  color: @text;
+  background-color: @crust;
+  transition: all 0.1s linear;
+  opacity: 0.4;
+}
+
+#workspaces button.active {
+  padding: 0px 6px;
+  color: @text;
+  background: @mauve;
+  border-radius: 3px 3px 3px 3px;
+  min-width: 15px;
+  transition: all 0.2s linear;
+  opacity:1.0;
+}
+
+#workspaces button:hover {
+  padding: 0px 6px;
+  color: @text;
+  background: @crust;
+  border-radius: 6px 6px 6px 6px;
+  opacity:0.7;
+}
+
+#workspaces button.urgent {
+  color: #eb4d4b;
+  background: @surface0;
+  opacity:1.0;
+}
+
+#pulseaudio,
+#clock,
+#battery,
+#cpu,
+#memory,
+#disk,
+#temperature,
+#backlight,
+#wireplumber,
+#tray,
+#network,
+#mode,
+#custom-powermenu,
+#hyprland-window,
+#scratchpad {
+  margin-top: 2px;
+  margin-bottom: 2px;
+  margin-left: 4px;
+  margin-right: 4px;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+#custom-powermenu {
+  color: @mauve;
+  background-color: @crust;
+  border:2px solid @mauve;
+  border-radius: 9px 9px 9px 9px;
+  padding: 0px 12px 0px 7px;
+  margin: 2px 5px 2px 5px;
+  opacity:0.8;
+}
+
+#clock {
+  color: @maroon;
+  background-color: @crust;
+  border:2px solid @maroon;
+  border-radius: 9px 9px 9px 9px;
+  padding: 2px 10px 2px 10px;
+  margin: 3px 5px 3px 5px;
+  opacity:0.8;
+}
+
+#pulseaudio {
+  color: @sapphire;
+  background-color: @crust;
+  border:2px solid @sapphire;
+  border-radius: 9px 9px 9px 9px;
+  padding: 2px 10px 2px 10px;
+  margin: 3px 5px 3px 5px;
+  opacity:0.8;
+}
+
+#tray {
+  background-color: @crust;
+  border:2px solid @lavender;
+  border-radius: 9px 9px 9px 9px;
+  padding: 2px 10px 2px 10px;
+  margin: 3px 5px 3px 5px;
+  opacity:0.8;
+}
+
+#network {
+  color: @yellow;
+}
+
+#idle_inhibitor {
+  margin-right: 12px;
+  color: #7cb342;
+}
+
+#idle_inhibitor.activated {
+  color: @red;
+}
+
+#battery {
+  color: @green;
+}
+
+/* If workspaces is the leftmost module, omit left margin */
+.modules-left>widget:first-child>#workspaces {
+  margin-left: 0;
+}
+
+/* If workspaces is the rightmost module, omit right margin */
+.modules-right>widget:last-child>#workspaces {
+  margin-right: 0;
+}
+
+#custom-vpn {
+  color: @lavender;
+  border-radius: 15px;
+  padding-left: 6px;
+  padding-right: 6px;
+}

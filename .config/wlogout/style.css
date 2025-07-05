@@ -1,0 +1,64 @@
+* {
+	background-image: none;
+	box-shadow: none;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+window {
+	background-color: rgba(10, 10, 26, 0.75);
+}
+
+button {
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+
+	border-radius: 15;
+	border-color: #cba6f7;
+	text-decoration-color: #cdd6f4;
+	color: #cdd6f4;
+	background-color: rgba(0,0,0,0);
+	border-style: solid;
+	border-width: 1px;
+	background-repeat: no-repeat;
+  background-position: center;
+  background-size: 25%;
+  animation: gradient_f 20s ease-in infinite;
+	transition: all 0.3s cubic-bezier(.55, 0.0, .28, 1.682), box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+
+button:focus{
+
+	background-color: rgba(48, 50, 66, 0);
+	outline-style: none;
+}
+button:hover {
+	background-color: rgba(17, 17, 27, 0.8);
+	outline-style: none;
+}
+
+#lock {
+    background-image: url("/home/leon/.config/wlogout/icons/lock.svg");
+}
+
+#logout {
+    background-image: url("/home/leon/.config/wlogout/icons/logout.svg");
+}
+
+#suspend {
+    background-image: url("/home/leon/.config/wlogout/icons/suspend.svg");
+}
+
+#hibernate {
+    background-image: url("/home/leon/.config/wlogout/icons/hibernate.svg");
+}
+
+#shutdown {
+    background-image: url("/home/leon/.config/wlogout/icons/shutdown.svg");
+}
+
+#reboot {
+    background-image: url("/home/leon/.config/wlogout/icons/reboot.svg");
+}

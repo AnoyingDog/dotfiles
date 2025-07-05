@@ -1,0 +1,9 @@
+{
+  "position": "top",
+  "include": [
+    "~/.config/waybar/modules.json"
+  ],
+  "modules-left": ["custom/powermenu", "hyprland/window"],
+  "modules-center": ["hyprland/workspaces"],
+  "modules-right": ["tray", "pulseaudio", "clock"],
+}
