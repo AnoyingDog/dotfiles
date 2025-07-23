@@ -1,4 +1,4 @@
-touch ~/activewindow.txt && rm ~/activewindow.txt
-hyprctl activewindow | grep "initialTitle">> ~/activewindow.txt 
+touch ~/activewindow.txt && rm ~/.scripts/activewindow.txt
+hyprctl activewindow | grep "initialTitle">> ~/.scripts/activewindow.txt 
 cat ~/activewindow.txt | while read OUTPUT; do notify-send "$OUTPUT"; done
 cat ~/activewindow.txt | wl-copy
