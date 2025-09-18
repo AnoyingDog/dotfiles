@@ -7,6 +7,7 @@ return {
     dependencies = {
       "saadparwaiz1/cmp_luasnip",
       "rafamadriz/friendly-snippets",
+      "hrsh7th/cmp-path", --autocomplete path
     },
   },
   {

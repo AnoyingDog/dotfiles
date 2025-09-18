@@ -23,6 +23,7 @@ return {
       lspconfig.clangd.setup({})
       lspconfig.pylsp.setup({})
       lspconfig.cssls.setup({})
+      lspconfig.biome.setup({})
 
       vim.keymap.set("n", "K", vim.lsp.buf.hover, {})
       vim.keymap.set("n", "gd", vim.lsp.buf.definition, {})

@@ -1,7 +1,0 @@
-{
-  "parent": "block/cube_column",
-  "textures": {
-    "end": "assets/minecraft/mcpatcher/cit/item/other/foraging/mangrove_log/mangrove_log_top",
-    "side": "assets/minecraft/mcpatcher/cit/item/other/foraging/mangrove_log/mangrove_log"
-  }
-}

@@ -38,6 +38,11 @@ bindkey -s '^E' 'customyazi\n'
 alias yazi='customyazi'
 
 
+function OpenInThunar(){
+  pwd | thunar
+}
+bindkey -s '^T' 'OpenInThunar\n'
+
 #Edit line in nvim CTRL+x
   #autoload edit-command-line; zle -N edit-command-line
   #bindkey '^X' edit-command-line

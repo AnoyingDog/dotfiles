@@ -8,7 +8,7 @@
   --font-primary: "Cascadia Code";
   --font-display: "Cascadia Code";
   --app-bg: rgba(0,0,0,0);
-  --app-blur: 5px;
+  --app-blur: 0px;
   --app-margin: 0px;
   --app-radius: 0px;
   --main-rgb: 0,0,0;
@@ -4172,10 +4172,13 @@ body {
 *	SEARCH POPOUT
 *
 */
-.container__55c99 {
+.container__53cea {
   background-color: var(--popout-color) !important;
   border-radius: var(--popout-radius) !important;
   box-shadow: var(--popout-shadow) !important;
+  backdrop-filter: blur(var(--popout-blur));
+}
+.scrim_d9cec8{
   backdrop-filter: blur(var(--popout-blur));
 }
 
@@ -5860,7 +5863,7 @@ body {
   margin-top: 0;
 }
 .visual-refresh .attachButton__0923f {
-  padding: var(--space-12) var(--space-xs) var(--space-12) var(--space-md);
+  /*padding: var(--space-12) var(--space-xs) var(--space-12) var(--space-md);*/
 }
 .visual-refresh .wrapper__44df5 {
   margin: 12px 0;
