@@ -54,6 +54,7 @@ alias grep='grep --color=auto'
 alias vim='nvim'
 alias tmux="tmux -f ~/.config/tmux/tmux.conf"
 alias svim="sudoedit"
+alias tarz='tar -I zstd -cf'
 
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source ~/.config/zsh/catppuccin_mocha-zsh-syntax-highlighting.zsh

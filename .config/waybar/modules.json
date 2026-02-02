@@ -43,5 +43,5 @@
     "format": "",
     "on-click": "wlogout",
     "on-click-right": "hyprlock",
-  }
+  },
 }
