@@ -44,8 +44,8 @@ function OpenInThunar(){
 bindkey -s '^T' 'OpenInThunar\n'
 
 #Edit line in nvim CTRL+x
-  #autoload edit-command-line; zle -N edit-command-line
-  #bindkey '^X' edit-command-line
+  autoload edit-command-line; zle -N edit-command-line
+  bindkey '^X' edit-command-line
 #zstyle :compinstall filename '/home/leon/.zshrc'
 
 
